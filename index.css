@@ -1,0 +1,1 @@
+@tailwind base;@tailwind components;@tailwind utilities;:root{font-family:'Noto Sans',sans-serif;color:#172033;background:#f6f8fc}body{margin:0;min-width:320px}button{font:inherit}.font-chinese{font-family:'Noto Sans SC',sans-serif}canvas{touch-action:none}.focus-ring:focus-visible{outline:3px solid #93c5fd;outline-offset:2px}

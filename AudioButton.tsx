@@ -1,0 +1,2 @@
+import {Volume2} from 'lucide-react';import type {AudioData} from '../data/types';import {speak} from '../utils/speech';
+export function AudioButton({text,audio}:{text:string;audio?:AudioData|null}){return <button aria-label="Escuchar pronunciación" onClick={()=>{if(!speak(text,audio))alert('Este navegador no dispone de una voz china adecuada para reproducir audio.')}} className="focus-ring inline-flex items-center gap-2 rounded-xl bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 hover:bg-blue-100"><Volume2 size={18}/>Escuchar</button>}

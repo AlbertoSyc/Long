@@ -1,0 +1,138 @@
+{
+  "curso":{"id":"chino-familias-radicales","nombre":"Aprende Chino por Familias y Radicales","version":"1.0.0","descripcion":"Curso basado exclusivamente en los cuadernos proporcionados, organizado por familias, radicales y acumulación."},
+  "config":{"validacion":{"minimoCompletar":70,"umbrales":[{"min":0,"max":39,"mensaje":"Necesitas practicar más"},{"min":40,"max":69,"mensaje":"Buen intento"},{"min":70,"max":84,"mensaje":"¡Muy bien!"},{"min":85,"max":100,"mensaje":"¡Excelente!"}]}},
+  "niveles":[
+    {"id":1,"orden":1,"titulo":"Cimientos y Naturaleza (Raíces Visuales)","descripcion":"Raíces visuales, árbol, sol, luz y tiempo.","desbloqueo":{"tipo":"ninguno"},"familias":[
+      {"id":"arbol","nombre":"Familia del Árbol y Vegetación","radical":"木","radicalPinyin":"mù","descripcion":"Familia ampliada del árbol y la vegetación.","orden":1,"palabras":[
+        {"id":"mu","caracter":"木","pinyin":"mù","traduccion":"Árbol / Madera","analisis":"Pictograma de un tronco con ramas."},
+        {"id":"lin","caracter":"林","pinyin":"lín","traduccion":"Bosque","analisis":"Dos árboles juntos: 木 + 木.","componentes":["木","木"]},
+        {"id":"sen","caracter":"森","pinyin":"sēn","traduccion":"Selva / Espesura","analisis":"Tres árboles juntos: 林 + 木.","componentes":["林","木"]},
+        {"id":"ben","caracter":"本","pinyin":"běn","traduccion":"Raíz / Libro / Origen","analisis":"Un árbol 木 con una línea horizontal marcando la base o raíces."},
+        {"id":"wei","caracter":"未","pinyin":"wèi","traduccion":"Aún no / No todavía","analisis":"Un árbol con ramas superiores que aún no florecen."},
+        {"id":"mo","caracter":"末","pinyin":"mò","traduccion":"Fin / Extremo","analisis":"Un árbol con una línea horizontal en la parte superior, indicando la punta de las ramas."},
+        {"id":"xiu","caracter":"休","pinyin":"xiū","traduccion":"Descansar","analisis":"Una persona 亻 apoyada junto a un árbol 木 → tomar un respiro en la naturaleza.","componentes":["亻","木"]}
+      ],"frases":[]},
+      {"id":"sol-luz-tiempo","nombre":"Familia del Sol, la Luz y el Tiempo","radical":"日","radicalPinyin":"rì","descripcion":"Familia del sol, la luz y el tiempo.","orden":2,"palabras":[
+        {"id":"ri","caracter":"日","pinyin":"rì","traduccion":"Sol / Día","analisis":"Pictograma del disco solar."},
+        {"id":"ming","caracter":"明","pinyin":"míng","traduccion":"Brillante / Claro","analisis":"Sol 日 + Luna 月 = la unión de las dos grandes luces del cielo genera claridad.","componentes":["日","月"]},
+        {"id":"zao","caracter":"早","pinyin":"zǎo","traduccion":"Temprano / Mañana","analisis":"El sol 日 saliendo justo por encima del horizonte o la cruz 十."},
+        {"id":"chang","caracter":"昌","pinyin":"chāng","traduccion":"Próspero / Glorioso","analisis":"Doble sol 日 + 日, abundancia de luz.","componentes":["日","日"]},
+        {"id":"chun","caracter":"春","pinyin":"chūn","traduccion":"Primavera","analisis":"El sol 日 calentando la vegetación que brota."}
+      ],"frases":[]}
+    ]},
+    {"id":2,"orden":2,"titulo":"Dinámica, Movimiento y Elementos","descripcion":"Agua, tierra y fuego mediante familias visuales.","desbloqueo":{"tipo":"nivel_anterior"},"familias":[
+      {"id":"agua","nombre":"Familia del Agua y los Líquidos","radical":"氵","radicalPinyin":"shuǐ","descripcion":"El radical de agua, sus líquidos y derivados.","palabras":[
+        {"id":"shui","caracter":"水","pinyin":"shuǐ","traduccion":"Agua","analisis":"Agua (carácter independiente)."},
+        {"id":"he","caracter":"河","pinyin":"hé","traduccion":"Río","analisis":"氵 (agua) + 可 (curva/apto).","componentes":["氵","可"]},
+        {"id":"hai","caracter":"海","pinyin":"hǎi","traduccion":"Mar","analisis":"氵 (agua) + 每 (cada) → la inmensidad que abarca todo.","componentes":["氵","每"]},
+        {"id":"yang","caracter":"洋","pinyin":"yáng","traduccion":"Océano / Mar abierto","analisis":"氵 (agua) + 羊 (oveja) → vasto como un rebaño.","componentes":["氵","羊"]},
+        {"id":"xi","caracter":"洗","pinyin":"xǐ","traduccion":"Lavar","analisis":"氵 (agua) + 先 (primero) → lo primero que se hace con agua.","componentes":["氵","先"]},
+        {"id":"zhi","caracter":"汁","pinyin":"zhī","traduccion":"Jugo / Zumo","analisis":"氵 (agua) + 十 (gota/esencia).","componentes":["氵","十"]}
+      ],"frases":[]},
+      {"id":"tierra-fuego","nombre":"Familia de la Tierra y del Fuego","radical":"土 / 火","radicalPinyin":"tǔ / huǒ","descripcion":"Tierra, suelo, fuego y calor.","palabras":[
+        {"id":"tu","caracter":"土","pinyin":"tǔ","traduccion":"Tierra / Suelo","analisis":"Un brote saliendo de la tierra."},
+        {"id":"di","caracter":"地","pinyin":"dì","traduccion":"Suelo / Terreno","analisis":"土 (tierra) + 也.","componentes":["土","也"]},
+        {"id":"chang","caracter":"场","pinyin":"cháng","traduccion":"Campo / Plaza / Lugar abierto","analisis":"土 (tierra) + 易.","componentes":["土","易"]},
+        {"id":"zuo","caracter":"坐","pinyin":"zuò","traduccion":"Sentarse","analisis":"Dos personas 人 + 人 sobre el suelo 土.","componentes":["人","人","土"]},
+        {"id":"huo","caracter":"火","pinyin":"huǒ","traduccion":"Fuego","analisis":"Llamas ascendentes."},
+        {"id":"yan","caracter":"炎","pinyin":"yán","traduccion":"Ardiente / Calor extremo","analisis":"Doble fuego: 火 + 火.","componentes":["火","火"]},
+        {"id":"kao","caracter":"烤","pinyin":"kǎo","traduccion":"Asar / Hornear","analisis":"火 (fuego) + 考.","componentes":["火","考"]}
+      ],"frases":[]}
+    ]},
+    {"id":3,"orden":3,"titulo":"Sociedad, Personas, Relaciones y Hogar","descripcion":"Personas, relaciones, hogar, refugio y puerta.","desbloqueo":{"tipo":"nivel_anterior"},"familias":[
+      {"id":"personas","nombre":"Familia de Personas y Relaciones","radical":"亻 / 人","radicalPinyin":"rén","descripcion":"Persona y relaciones humanas.","palabras":[
+        {"id":"ren","caracter":"人","pinyin":"rén","traduccion":"Persona","analisis":"Carácter base de persona."},
+        {"id":"ni","caracter":"你","pinyin":"nǐ","traduccion":"Tú","analisis":"亻 (persona) + 尔.","componentes":["亻","尔"]},
+        {"id":"ta","caracter":"他","pinyin":"tā","traduccion":"Él","analisis":"亻 (persona) + 也 (también) → otra persona.","componentes":["亻","也"]},
+        {"id":"men","caracter":"们","pinyin":"men","traduccion":"Sufijo de plural para personas","analisis":"亻 (persona) + 门 (puerta) → un grupo reunido.","componentes":["亻","门"]},
+        {"id":"cong","caracter":"从","pinyin":"cóng","traduccion":"Seguir / Desde","analisis":"Una persona 亻 detrás de otra 亻, caminando en fila.","componentes":["人","人"]},
+        {"id":"zhong","caracter":"众","pinyin":"zhòng","traduccion":"Muchedumbre / Público","analisis":"Tres personas juntas: 人 + 人 + 人.","componentes":["人","人","人"]},
+        {"id":"hao","caracter":"好","pinyin":"hǎo","traduccion":"Bueno / Bien","analisis":"女 (mujer) + 子 (niño) → armonía familiar y bienestar.","componentes":["女","子"]},
+        {"id":"nu","caracter":"女","pinyin":"nǚ","traduccion":"Mujer","analisis":"Pictograma de una persona con rasgos femeninos."},
+        {"id":"zi","caracter":"子","pinyin":"zǐ","traduccion":"Niño / Hijo","analisis":"Niño / hijo."}
+      ],"frases":[]},
+      {"id":"hogar-puerta","nombre":"Familia del Hogar, el Refugio y la Puerta","radical":"门 / 宀","radicalPinyin":"mén / mián","descripcion":"Construcciones humanas, estructuras de protección, entradas y espacio privado.","palabras":[
+        {"id":"men-puerta","caracter":"门","pinyin":"mén","traduccion":"Puerta","analisis":"Doble hoja de una puerta tradicional."},
+        {"id":"mian","caracter":"宀","pinyin":"mián","traduccion":"Techo / Corona de casa","analisis":"Representa un alero o tejado."},
+        {"id":"wen","caracter":"问","pinyin":"wèn","traduccion":"Preguntar","analisis":"门 (puerta) + 口 (boca) → asomarse a la puerta a preguntar.","componentes":["门","口"]},
+        {"id":"jian","caracter":"间","pinyin":"jiān","traduccion":"Espacio / Entre / Habitación","analisis":"门 (puerta) + 日 (sol) → luz cruzando las rendijas.","componentes":["门","日"]},
+        {"id":"jia","caracter":"家","pinyin":"jiā","traduccion":"Casa / Hogar","analisis":"宀 (techo) + 豕 (cerdo) → ganado bajo techo como símbolo de riqueza familiar ancestral.","componentes":["宀","豕"]},
+        {"id":"an","caracter":"安","pinyin":"ān","traduccion":"Seguro / Tranquilo / Paz","analisis":"宀 (techo) + 女 (mujer) → la seguridad del hogar.","componentes":["宀","女"]}
+      ],"frases":[]}
+    ]},
+    {"id":4,"orden":4,"titulo":"Acciones, Pensamiento, Manos y Naturaleza Viva","descripcion":"Acciones, pensamiento, manos, animales y familiares cercanos.","desbloqueo":{"tipo":"nivel_anterior"},"familias":[
+      {"id":"acciones-pensamiento","nombre":"Acciones, Movimiento y Pensamiento","palabras":[
+        {"id":"zou","caracter":"走","pinyin":"zǒu","traduccion":"Caminar / Ir","analisis":"Caminar / ir."},
+        {"id":"chi","caracter":"吃","pinyin":"chī","traduccion":"Comer","analisis":"口 (boca) + 乞.","componentes":["口","乞"]},
+        {"id":"xiang","caracter":"想","pinyin":"xiǎng","traduccion":"Pensar / Desear","analisis":"Mente/corazón + 相."},
+        {"id":"ting","caracter":"听","pinyin":"tīng","traduccion":"Escuchar","analisis":"口 (boca/oído) + 斤.","componentes":["口","斤"]},
+        {"id":"shuo","caracter":"说","pinyin":"shuō","traduccion":"Hablar / Decir","analisis":"讠/言 (palabra) + 兑.","componentes":["讠","兑"]}
+      ],"frases":[]},
+      {"id":"manos","nombre":"Familia de Acciones con las Manos","radical":"扌","radicalPinyin":"shǒu","palabras":[
+        {"id":"shou","caracter":"手","pinyin":"shǒu","traduccion":"Mano","analisis":"Carácter independiente."},
+        {"id":"da","caracter":"打","pinyin":"dǎ","traduccion":"Golpear / Hacer","analisis":"扌 (mano) + 丁.","componentes":["扌","丁"]},
+        {"id":"zhao","caracter":"找","pinyin":"zhǎo","traduccion":"Buscar","analisis":"扌 (mano) + 戈.","componentes":["扌","戈"]},
+        {"id":"ba","caracter":"把","pinyin":"bǎ","traduccion":"Agarrar / Sujetar","analisis":"扌 (mano) + 巴.","componentes":["扌","巴"]},
+        {"id":"tui","caracter":"推","pinyin":"tuī","traduccion":"Empujar","analisis":"扌 (mano) + 隹.","componentes":["扌","隹"]}
+      ],"frases":[]},
+      {"id":"animales-familiares","nombre":"Animales y Familiares Cercanos","palabras":[
+        {"id":"ma","caracter":"马","pinyin":"mǎ","traduccion":"Caballo","analisis":"Crin, cuerpo y patas."},
+        {"id":"niao","caracter":"鸟","pinyin":"niǎo","traduccion":"Pájaro","analisis":"Ave con pico y ojo."},
+        {"id":"yu","caracter":"鱼","pinyin":"yú","traduccion":"Pez","analisis":"Cabeza, escamas y cola."},
+        {"id":"chong","caracter":"虫","pinyin":"chóng","traduccion":"Insecto / Gusano","analisis":"Insecto / gusano."},
+        {"id":"ba-padre","caracter":"爸","pinyin":"bà","traduccion":"Papá","analisis":"Papá."},
+        {"id":"ma-madre","caracter":"妈","pinyin":"mā","traduccion":"Mamá","analisis":"Mujer 女 + caballo 马 como fonético.","componentes":["女","马"]},
+        {"id":"ge","caracter":"哥","pinyin":"gē","traduccion":"Hermano mayor","analisis":"Hermano mayor."},
+        {"id":"jie","caracter":"姐","pinyin":"jiě","traduccion":"Hermana mayor","analisis":"Mujer 女 + 且.","componentes":["女","且"]},
+        {"id":"di","caracter":"弟","pinyin":"dì","traduccion":"Hermano menor","analisis":"Hermano menor."},
+        {"id":"mei","caracter":"妹","pinyin":"mèi","traduccion":"Hermana menor","analisis":"Mujer 女 + 未.","componentes":["女","未"]}
+      ],"frases":[]}
+    ]},
+    {"id":5,"orden":5,"titulo":"Vocabulario Esencial","descripcion":"Números, colores, alimentos y transportes.","desbloqueo":{"tipo":"nivel_anterior"},"familias":[
+      {"id":"numeros","nombre":"Números (Conteo Visual)","palabras":[
+        {"id":"yi","caracter":"一","pinyin":"yī","traduccion":"1","analisis":"Una línea."},{"id":"er","caracter":"二","pinyin":"èr","traduccion":"2","analisis":"Dos líneas."},{"id":"san","caracter":"三","pinyin":"sān","traduccion":"3","analisis":"Tres líneas."},{"id":"si","caracter":"四","pinyin":"sì","traduccion":"4","analisis":"Número 4."},{"id":"wu","caracter":"五","pinyin":"wǔ","traduccion":"5","analisis":"Número 5."},{"id":"liu","caracter":"六","pinyin":"liù","traduccion":"6","analisis":"Número 6."},{"id":"qi","caracter":"七","pinyin":"qī","traduccion":"7","analisis":"Número 7."},{"id":"ba-num","caracter":"八","pinyin":"bā","traduccion":"8","analisis":"Dos líneas separándose."},{"id":"jiu","caracter":"九","pinyin":"jiǔ","traduccion":"9","analisis":"Número 9."},{"id":"shi","caracter":"十","pinyin":"shí","traduccion":"10","analisis":"Cruz perfecta."}
+      ],"frases":[]},
+      {"id":"colores-alimentos","nombre":"Colores y Alimentos","palabras":[
+        {"id":"hong","caracter":"红","pinyin":"hóng","traduccion":"Rojo","analisis":"纟 (seda) + 工.","componentes":["纟","工"]},{"id":"bai","caracter":"白","pinyin":"bái","traduccion":"Blanco","analisis":"Luz pura."},{"id":"hei","caracter":"黑","pinyin":"hēi","traduccion":"Negro","analisis":"Hollín."},{"id":"lv","caracter":"绿","pinyin":"lǜ","traduccion":"Verde","analisis":"纟 + 录.","componentes":["纟","录"]},{"id":"guo","caracter":"果","pinyin":"guǒ","traduccion":"Fruta","analisis":"Árbol 木 con frutos arriba."},{"id":"pingguo","caracter":"苹果","pinyin":"píngguǒ","traduccion":"Manzana","analisis":"Plano/paz 平 + fruta 果."},{"id":"mi","caracter":"米","pinyin":"mǐ","traduccion":"Arroz","analisis":"Granos con ramificaciones."},{"id":"cha","caracter":"茶","pinyin":"chá","traduccion":"Té","analisis":"Hierba 艹 + árbol 木 + persona."},{"id":"rou","caracter":"肉","pinyin":"ròu","traduccion":"Carne","analisis":"Cortes de carne."}
+      ],"frases":[]},
+      {"id":"transportes","nombre":"Transportes y Movimiento","radical":"车","radicalPinyin":"chē","palabras":[
+        {"id":"che","caracter":"车","pinyin":"chē","traduccion":"Vehículo / Carro","analisis":"Carreta vista desde arriba."},{"id":"huoche","caracter":"火车","pinyin":"huǒchē","traduccion":"Tren","analisis":"Fuego 火 + Vehículo 车 → locomotoras de vapor.","componentes":["火","车"]},{"id":"qiche","caracter":"汽车","pinyin":"qìchē","traduccion":"Automóvil","analisis":"Gas/vapor + Vehículo."},{"id":"feiji","caracter":"飞机","pinyin":"fēijī","traduccion":"Avión","analisis":"Volar 飞 + Motor/máquina 机."},{"id":"chezhan","caracter":"车站","pinyin":"chēzhàn","traduccion":"Estación","analisis":"Vehículo + Detenerse."}
+      ],"frases":[]}
+    ]},
+    {"id":6,"orden":6,"titulo":"Familias Avanzadas","descripcion":"Cuerpo, movimiento, ropa, dinero, clima y frases acumulativas.","desbloqueo":{"tipo":"nivel_anterior"},"familias":[
+      {"id":"cuerpo-salud","nombre":"Familia del Cuerpo Humano y la Salud","radical":"月 / 心","radicalPinyin":"ròu / xīn","palabras":[
+        {"id":"xin","caracter":"心","pinyin":"xīn","traduccion":"Corazón / Mente","analisis":"Pictograma del órgano cardíaco con sus cavidades."},{"id":"tou","caracter":"头","pinyin":"tóu","traduccion":"Cabeza","analisis":"Cabeza."},{"id":"zu-jiao","caracter":"足 / 脚","pinyin":"zú / jiǎo","traduccion":"Pie / Pierna","analisis":"Pie / pierna."},{"id":"si","caracter":"思","pinyin":"sī","traduccion":"Pensar / Reflexionar","analisis":"Campo 田 + Corazón 心 → la mente cultivando pensamientos.","componentes":["田","心"]},{"id":"xiang-av","caracter":"想","pinyin":"xiǎng","traduccion":"Extrañar / Desear / Pensar","analisis":"Árbol/mente + Corazón."}
+      ],"frases":[]},
+      {"id":"movimiento","nombre":"Familia del Movimiento Corporal","radical":"辶 / 止","radicalPinyin":"zǒu / zhǐ","palabras":[
+        {"id":"qu","caracter":"去","pinyin":"qù","traduccion":"Ir / Marcharse","analisis":"Una persona saliendo de un territorio."},{"id":"lai","caracter":"来","pinyin":"lái","traduccion":"Venir","analisis":"Pictograma de una planta de trigo que llega o se acerca."},{"id":"zou-av","caracter":"走","pinyin":"zǒu","traduccion":"Caminar / Marchar","analisis":"Caminar / marchar."},{"id":"jin","caracter":"进","pinyin":"jìn","traduccion":"Entrar","analisis":"辶 (caminar/avanzar) + 井 (pozo/interior) → avanzar hacia adentro.","componentes":["辶","井"]},{"id":"yuan","caracter":"远","pinyin":"yuǎn","traduccion":"Lejano","analisis":"辶 (movimiento) + 袁 (fonético) → un camino largo.","componentes":["辶","袁"]}
+      ],"frases":[]},
+      {"id":"ropa","nombre":"Familia de la Ropa, el Vestido y los Tejidos","radical":"衤 / 纟","radicalPinyin":"yī / sī","palabras":[
+        {"id":"yi-ropa","caracter":"衣","pinyin":"yī","traduccion":"Ropa / Vestimenta","analisis":"Pictograma de una chaqueta tradicional con cuello cruzado."},{"id":"chuan","caracter":"穿","pinyin":"chuān","traduccion":"Vestir / Ponerse ropa","analisis":"Hoyo 穴 + Colmillos/ropa → abrir espacio para introducir el cuerpo en la vestimenta."},{"id":"ku","caracter":"裤","pinyin":"kù","traduccion":"Pantalones","analisis":"衤 (radical de ropa) + 库.","componentes":["衤","库"]},{"id":"xie","caracter":"鞋","pinyin":"xié","traduccion":"Zapatos","analisis":"革 (cuero) + 圭.","componentes":["革","圭"]}
+      ],"frases":[]},
+      {"id":"dinero-comercio","nombre":"Familia del Dinero, el Comercio y la Riqueza","radical":"贝","radicalPinyin":"bèi","descripcion":"En la antigua China, las conchas marinas se usaban como moneda de cambio, según el material.","palabras":[
+        {"id":"bei","caracter":"贝","pinyin":"bèi","traduccion":"Concha / Dinero antiguo","analisis":"Concha / dinero antiguo."},{"id":"mai-comprar","caracter":"买","pinyin":"mǎi","traduccion":"Comprar","analisis":"Red de captura + Dinero 贝 → adquirir algo pagando."},{"id":"mai-vender","caracter":"卖","pinyin":"mài","traduccion":"Vender","analisis":"Salida/ofrecer + Dinero 贝 → entregar un bien a cambio de conchas."},{"id":"gui","caracter":"贵","pinyin":"guì","traduccion":"Caro / Valioso","analisis":"Concha 贝 con un símbolo de valor elevado."},{"id":"qian","caracter":"钱","pinyin":"qián","traduccion":"Dinero","analisis":"钅 (metal) + 戋.","componentes":["钅","戋"]}
+      ],"frases":[]},
+      {"id":"tiempo-clima","nombre":"Familia del Tiempo, el Clima y las Estaciones","radical":"雨 / 气","radicalPinyin":"yǔ / qì","palabras":[
+        {"id":"yu-lluvia","caracter":"雨","pinyin":"yǔ","traduccion":"Lluvia","analisis":"Nubes flotando arriba con gotas cayendo en vertical."},{"id":"xue","caracter":"雪","pinyin":"xuě","traduccion":"Nieve","analisis":"Lluvia 雨 + barrer/esculpir = agua helada cayendo."},{"id":"feng","caracter":"风","pinyin":"fēng","traduccion":"Viento","analisis":"El aire moviéndose con fuerza."},{"id":"qi-clima","caracter":"气","pinyin":"qì","traduccion":"Aire / Gas / Energía vital / Clima","analisis":"Aire, gas, energía vital o clima."},{"id":"tian","caracter":"天","pinyin":"tiān","traduccion":"Cielo / Día","analisis":"Cielo / día."}
+      ],"frases":[
+        {"id":"frase-01","frase":"森林很大，河水很清。","pinyin":"Sēn lín hěn dà, hé shuǐ hěn qīng.","traduccion":"La selva es muy grande, el agua del río es muy clara.","analisis":"Usa 森林, 大, 河, 水 y 清.","nivelesReutilizados":[1,2]},
+        {"id":"frase-02","frase":"早晨，太阳在东方升起。","pinyin":"Zǎo chén, tài yáng zài dōng fāng shēng qǐ.","traduccion":"Por la mañana, el sol sale por el este.","analisis":"Usa 早, 日/阳 y 在.","nivelesReutilizados":[1]},
+        {"id":"frase-03","frase":"火在森林里，水在河边。","pinyin":"Huǒ zài sēn lín lǐ, shuǐ zài hé biān.","traduccion":"El fuego está dentro de la selva, el agua está al lado del río.","analisis":"Mezcla 火, 森林, 水 y 河.","nivelesReutilizados":[1,2]},
+        {"id":"frase-04","frase":"你问我，我听老师说。","pinyin":"Nǐ wèn wǒ, wǒ tīng lǎoshī shuō.","traduccion":"Tú me preguntas, yo escucho lo que dice el profesor.","analisis":"Integra 你, 问, 我, 听, 老师 y 说.","nivelesReutilizados":[3,4]},
+        {"id":"frase-05","frase":"众人在河边看海。","pinyin":"Zhòng rén zài hé biān kàn hǎi.","traduccion":"La muchedumbre de personas mira el mar al lado del río.","analisis":"Usa 众, 人, 河, 看 y 海.","nivelesReutilizados":[2,3]},
+        {"id":"frase-06","frase":"三个人在树间休息。","pinyin":"Sān gè rén zài shù jiān xiū xí.","traduccion":"Tres personas descansan entre los árboles.","analisis":"Usa números básicos, 人, 树, 间 y 休息.","nivelesReutilizados":[1,3,5]},
+        {"id":"frase-07","frase":"家很大，里面很安全。","pinyin":"Jiā hěn dà, lǐ miàn hěn ān quán.","traduccion":"El hogar es muy grande, dentro es muy seguro.","analisis":"Usa 家, 大 y 安.","nivelesReutilizados":[3]},
+        {"id":"frase-08","frase":"你在家门口问老师。","pinyin":"Nǐ zài jiā mén kǒu wèn lǎoshī.","traduccion":"Tú preguntas al profesor en la puerta de casa.","analisis":"Conecta 家, 门, 口, 问 y 老师.","nivelesReutilizados":[3]},
+        {"id":"frase-09","frase":"明月照 Hǎi 上， Píng ān zài 间。","traduccion":"La luna brillante ilumina sobre el mar, la paz está en el espacio del hogar.","analisis":"Versión poética acumulativa. El material fuente no proporciona un pinyin completo para esta frase.","nivelesReutilizados":[1,3]},
+        {"id":"frase-10","frase":"鱼在河里，鸟在树上。","traduccion":"El pez está dentro del río, el pájaro está sobre el árbol.","analisis":"Frase acumulativa incluida en la batería maestra del documento principal.","nivelesReutilizados":[1,2,4]},
+        {"id":"frase-11","frase":"妈妈在家里吃红苹果。","traduccion":"Mamá come una manzana roja en casa.","analisis":"Frase acumulativa incluida en la batería maestra del documento principal.","nivelesReutilizados":[3,4,5]},
+        {"id":"frase-12","frase":"三个人在车站看火车。","traduccion":"Tres personas miran el tren en la estación.","analisis":"Frase acumulativa incluida en la batería maestra del documento principal.","nivelesReutilizados":[3,5]},
+        {"id":"frase-13","frase":"八只鸟在绿树上。","traduccion":"Ocho pájaros están sobre el árbol verde.","analisis":"Frase acumulativa incluida en la batería maestra del documento principal.","nivelesReutilizados":[1,4,5]},
+        {"id":"frase-14","frase":"你在河边找什么？","traduccion":"¿Qué estás buscando al lado del río?","analisis":"Frase acumulativa incluida en la batería maestra del documento principal.","nivelesReutilizados":[2,3,4]},
+        {"id":"frase-15","frase":"我想去远方买新衣。","traduccion":"Quiero ir a un lugar lejano a comprar ropa nueva.","analisis":"Frase acumulativa incluida en la batería maestra del documento principal.","nivelesReutilizados":[4,6]},
+        {"id":"frase-16","frase":"雨很大的时候，我在家里看书。","traduccion":"Cuando llueve mucho, leo libros en casa.","analisis":"Frase acumulativa incluida en la batería maestra del documento principal.","nivelesReutilizados":[3,6]},
+        {"id":"frase-17","frase":"妈妈买的苹果很贵。","traduccion":"Las manzanas que compró mamá son muy caras.","analisis":"Frase acumulativa incluida en la batería maestra del documento principal.","nivelesReutilizados":[4,5,6]}
+      ]}
+    ]}
+  ]
+}

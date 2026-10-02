@@ -1,0 +1,10 @@
+export type UnlockRule={tipo:'nivel_anterior'|'porcentaje'|'familias'|'ninguno';nivel?:number;valor?:number;familias?:string[]};
+export interface AudioData{tipo:'speech'|'archivo';src?:string}
+export interface Exercise{tipo:string;[key:string]:unknown}
+export interface Word{id:string;caracter:string;pinyin:string;traduccion:string;analisis?:string;familia?:string;orden?:number;ejemplo?:string;notas?:string;radicales?:string[];componentes?:string[];audio?:AudioData|null;ejercicios?:Exercise[];}
+export interface Phrase{id:string;frase:string;pinyin?:string;traduccion:string;analisis?:string;familia?:string;nivel?:number;vocabularioUtilizado?:string[];nivelesReutilizados?:number[];audio?:AudioData|null;ejercicios?:Exercise[];}
+export interface Family{id:string;nombre:string;radical?:string;radicalPinyin?:string;descripcion?:string;palabras:Word[];frases:Phrase[];orden?:number;}
+export interface Level{id:number;orden?:number;titulo:string;descripcion?:string;familias:Family[];desbloqueo?:UnlockRule;estado?:'disponible'|'proximamente';}
+export interface CourseInfo{id:string;nombre:string;version:string;descripcion?:string}
+export interface Course{curso:CourseInfo;niveles:Level[];config?:{validacion?:{minimoCompletar?:number;umbrales?:{min:number;max:number;mensaje:string}[]};};}
+export interface Progress{profile:string;currentLevel:number;completedWords:string[];completedFamilies:string[];completedPhrases:string[];writingScores:Record<string,number>;lastAccess:string;}

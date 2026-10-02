@@ -1,0 +1,2 @@
+import type {AudioData} from '../data/types';
+export function speak(text:string,audio?:AudioData|null){if(audio?.tipo==='archivo'&&audio.src){const a=new Audio(audio.src);void a.play();return true}if(!('speechSynthesis'in window))return false;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';const voices=window.speechSynthesis.getVoices();u.voice=voices.find(v=>v.lang.toLowerCase().startsWith('zh-cn'))??voices.find(v=>v.lang.toLowerCase().startsWith('zh'))??null;window.speechSynthesis.speak(u);return true}
